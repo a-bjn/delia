@@ -25,7 +25,7 @@ interface TimelineEvent {
 
 export default function TimelineSection() {
   const timelineRef = useRef<HTMLDivElement>(null);
-  const eventsRef = useRef<(HTMLDivElement | null)[]>([]);
+  const eventsRef = useRef<(HTMLElement | null)[]>([]);
 
   const events: TimelineEvent[] = [
     {
