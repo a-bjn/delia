@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Playfair Example",
-  description: "Using Playfair Display with Next.js",
+  title: "Bejan Love SRL",
+  description: "Oferim servicii de iubire pentru Delia <3",
 };
 
 export default function RootLayout({
